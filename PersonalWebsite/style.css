@@ -1,0 +1,157 @@
+#menu {
+  margin:5px; 
+  padding: 10px; 
+  top: 0;
+  right: 10%;  
+  position: fixed;
+  background-color: rgb(178, 178, 249); 
+  text-align: right;
+  border-radius: 10px;
+}
+#menu a {
+    margin: 0 8px;
+    color: white; 
+}
+a:hover {
+    background-color: rgb(72, 72, 156);
+}
+
+body {
+    position: relative; 
+}
+
+html {
+    font-family: Comic sans-serif;
+    background-color: rgb(201, 201, 230);
+}
+
+h1 {
+    color: rgb(113, 113, 187); 
+    margin: 0 auto;      
+    min-width: 200px;    
+    font-size: 50px; 
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 300px 
+    
+}
+
+#hi {
+    color: rgb(137, 137, 192); 
+    margin-top: 100px;
+    text-align: center;
+    margin: 0 auto;      
+    min-width: 200px;    
+    margin-bottom: 300px;
+}
+
+#intro {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+#div1, #div2, #div3 {
+    flex: 1;
+    background-color: rgb(225, 225, 240); 
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+#div1 {
+    margin-right: 40px;
+}
+
+#div2 {
+    margin-right: 40px;
+}
+
+#div1 img, #div2 img, #div3 img {
+    width: auto;          
+    height: 150px;        
+    object-fit: cover;   
+    display: block;      
+    margin: 0 auto;      
+}
+
+#div1 h3, #div2 h3, #div3 h3 {
+    color: rgb(89, 89, 169); 
+    text-align: center;
+}
+
+#div1 p, #div2 p{
+    color: rgb(47, 47, 90);
+    margin: 20px;
+}
+
+#div3 li {
+    color: rgb(47, 47, 90);
+}
+
+#contacts, #sns {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+#contacts input[type="text"], #contacts input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+}
+#contacts textarea {
+    height: 200px; 
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#reachout {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    margin-top: 200px;
+    margin-bottom: 300px;
+}
+
+#contacts {
+    color: rgb(88, 88, 186); 
+    flex: 1;
+    margin-right: 150px; 
+}
+
+#contacts h2 {
+    text-align: center;
+}
+
+#sns {
+    color: rgb(88, 88, 186); 
+    text-align: center;
+}
+
+#education, #projects, #professional, #leadership, #skillsAndinterests {
+    color: rgb(47, 47, 90);
+    font-size: 20px
+}
+
+#education h2, #projects h2, #professional h2, #leadership h2, #skillsAndinterests h2 {
+    color: rgb(89, 89, 169); 
+    font-size: 40px
+}
+
+b {
+    color: rgb(89, 89, 169);   
+}
+
+.download {
+    margin-top: 200px;
+    color: rgb(47, 47, 90);
+}

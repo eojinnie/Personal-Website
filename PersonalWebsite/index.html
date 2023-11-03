@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jinniekim.com</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+    name="description"
+    content="Welcome to Jinnie Kim's personal website."
+    />
+    <meta
+    name="theme-color"
+    content="#0000FF"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <ul id="menu">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+      </ul>
+    </nav>
+    <h1 id="myName">Jinnie (Eojin) Kim</h1>
+    <h2 id="hi">Hi, I'm Jinnie</h2>
+    <script src="script.js"></script>
+    <div id='intro'>
+      <div id='div1'>
+        <img
+          src="Oski.webp"
+          alt="oski"
+          width="150"
+          height="150"
+        />
+        <h3>Data Science @ UC Berkeley</h3>
+        <p>
+          I'm studying Data Science at University of California, Berkeley. 
+          I've honed skills in statistical modeling, machine learning, and data engineering, with hands-on experience in tools like Python and SQL.
+          Go Bears!
+        </p>
+      </div>
+      <div id='div2'>
+        <img
+          src="monitor.png"
+          alt="my picture"
+          width="150"
+          height="150"
+        />
+        <h3>Software engineer</h3>
+        <p>
+          I've learned Java, Python, and Swift. I can build both front and back end of apps/webs. 
+          I wanted to be a software engineer because I love turning my ideas into real things and just playing around 
+          with code until it works perfectly. It's kind of like magic!
+        </p>
+      </div>
+      <div id='div3'>
+        <img
+          src="Eojin-Kim.jpg"
+          alt="my picture"
+          width="150"
+          height="150"
+        />
+        <h3>About Me</h3>
+        <ul>
+          <li>Born and grew up in South Korea. Moved to US since 2018!</li>
+          <li>Started as a Biology major, changed to Data Science</li>
+          <li>Like watching youtubes/Netflix or playing mobile games~!!</li>
+        </ul>
+      </div>
+    </div>
+    <div id=reachout>
+      <div id='contacts'>
+        <h2>Learn more about me?</h1>
+        <form action="/submit_form" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required>
+          <br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="user_email" required>
+          <br><br>
+          <textarea id="message" name="user_message" placeholder="Ask anything about me!" rows="4" required></textarea>
+          <br><br>
+          <button class="submit-button">Submit</button>
+        </form>
+        <script src="./form.js"></script>
+      </div>
+      <div id='sns'>
+       <h2> Thanks for stopping by!</h2>
+        <a href="https://www.linkedin.com/in/jinnie-kim-b56005217/">LinkedIn</a>
+        <a href="https://github.com/eojinnie">Github</a>
+        <a href="https://www.instagram.com/eojinnie/?next=%2F&hl=en">Instagram</a>
+      </div>
+    </div>
+  </body>
+</html>
